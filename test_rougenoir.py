@@ -1,11 +1,11 @@
 import deck  # game ? rougenoir ?
 
-jeu = deck.Jeu(['R','N'],[('As',2),(2,2),(3,2),(4,2),(5,2),(6,2),(7,2),(8,2),(9,2),(10,2),('V',2),('D',1),('R',2)])
+jeu = deck.Jeu(['heart','spade','diamond','club'],[1,2,3,4,5,6,7,8,9,10,11,12,13])
 
 jeu.melange()
 
 # question
-guess = input('Quelle couleur devinez-vous? [R/N] ')
+guess = input('Quelle couleur devinez-vous? [red/black] ')
 
 #piocher
 carte_tiree = jeu.pioche()
@@ -15,7 +15,7 @@ print("Vous avez tire un(e) ", carte_tiree)
 
 
 # regarder si la carte tire est rouge ou noire
-if carte_tiree.color == guess :
+if carte_tiree._color == guess :
     print('gagne')
 else:
     print('perdu')
