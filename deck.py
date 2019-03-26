@@ -3,7 +3,7 @@ import random
 class Jeu():
     def __init__(self, suits, values):
         """ suits : list of suits ex: ['heart','spade','club','diamond']
-        values : list of tuple with values taken by each color and their number for each value 
+        values : list of tuple with values (MUST BE INT) taken by each color and their reps (MUST BE INT) for each value 
         if only one item for each value : list of values only
             ex : [(1,3),(2,2),(3,2),(4,2),(5,1)] for Hanabi
                 [1,7,8,9,10,11,12,13] for Belote
