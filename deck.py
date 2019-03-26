@@ -7,6 +7,8 @@ class Jeu():
         if only one item for each value : list of values only
             ex : [(1,3),(2,2),(3,2),(4,2),(5,1)] for Hanabi
                 [1,7,8,9,10,11,12,13] for Belote
+                
+        FIXME : jeu de Tarot : 5 couleurs, pas le même nombre pour chaque (atouts)
         """
         self.suits=suits
         self.values=values
