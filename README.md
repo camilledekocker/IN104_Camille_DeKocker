@@ -20,3 +20,6 @@ PEP-8 Convention :
   - Protected Attributes : _lower_case_with_underscore
   - Constants : ALL_CAPS
   - Modules : lowercase
+
+
+Class Enum : lister des choses
