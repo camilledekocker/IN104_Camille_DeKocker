@@ -23,3 +23,9 @@ PEP-8 Convention :
 
 
 Class Enum : lister des choses
+
+synchroniser :
+  - git status
+  - git pull upstream master
+  - git commit -a -m "sync upstream"
+  - git push origin master
