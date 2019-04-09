@@ -35,6 +35,8 @@ Class Enum : lister des choses
   - git status
   - git add (fichier en rouge dans status)
   - git commit -m "blabla"
-  - git pull
-  - git push
+  - git pull origin Camille
+  - git push origin Camille
+  - git checkout master
+  - git pull origin master
   
