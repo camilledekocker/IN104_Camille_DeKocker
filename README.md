@@ -5,14 +5,14 @@ IN104 Project
 jdgaraud@onera.fr
 
 
-unicode for card suits symbol :
+# unicode for card suits symbol :
   - "\u2660" Spade
   - "\u2663" Club
   - "\u2665" Heart
   - "\u2666" Diamond
   
 
-PEP-8 Convention :
+# PEP-8 Convention :
   - Variables : lower_case_with_underscore
   - Functions : lower_case_with_underscore
   - Classes : UpperCamelCase
@@ -24,8 +24,17 @@ PEP-8 Convention :
 
 Class Enum : lister des choses
 
-synchroniser :
+# synchroniser avec upstream :
   - git status
   - git pull upstream master
   - git commit -a -m "sync upstream"
   - git push origin master
+  
+  
+# synchroniser avec master :
+  - git status
+  - git add (fichier en rouge dans status)
+  - git commit -m "blabla"
+  - git pull
+  - git push
+  
