@@ -8,10 +8,10 @@ jdgaraud@onera.fr
 
 
 # unicode for card suits symbol :
-  - <pre><code>"\u2660"</code></pre> Spade
-  - <pre><code>"\u2663"</code></pre> Club
-  - <pre><code>"\u2665"</code></pre> Heart
-  - <pre><code>"\u2666"</code></pre> Diamond
+  - Spade <pre><code>"\u2660"</code></pre> 
+  - Club <pre><code>"\u2663"</code></pre> 
+  - Heart <pre><code>"\u2665"</code></pre> 
+  - Diamond <pre><code>"\u2666"</code></pre> 
   
 
 # PEP-8 Convention :
