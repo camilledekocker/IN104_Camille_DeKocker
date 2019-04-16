@@ -42,3 +42,10 @@ Class Enum : lister des choses
   - git checkout master
   - git pull origin master
   
+# envoyer des pull request vers upstream :
+  - git checkout upstream/master
+  - git checkout -b "nouveau_test Alice Bob"
+  - on fait les modifs dans la branche
+  - git commit -a -m
+  - git push origin
+  
