@@ -54,4 +54,7 @@ Class Enum : lister des choses
   - https://realpython.com/python-testing/
   - https://docs.python.org/3/library/unittest.html
   
+# inclure une image dans md
+  - ![Image](mon_image.png) "image")
+  
   
