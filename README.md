@@ -49,3 +49,9 @@ Class Enum : lister des choses
   - git commit -a -m
   - git push origin
   
+  
+# unittest
+  - https://realpython.com/python-testing/
+  - https://docs.python.org/3/library/unittest.html
+  
+  
